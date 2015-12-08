@@ -1,0 +1,88 @@
+body {
+    background-color: #e0e0e0;
+    padding: 0px 0px 0px 0px;
+    font-family: sans-serif;
+}
+
+#title,
+#menu,
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.container {
+    margin: inherit;
+    padding: inherit;
+}
+
+#menu {
+    background-color: #212224;
+    position: fixed;
+    height: 100%
+}
+
+#menu h1,
+#menu h3,
+#menu p,
+#menu ul {
+    color: cadetblue;
+    padding-left: 10%;
+}
+
+#menu li {
+    list-style: none;
+    color: cadetblue;
+}
+
+.col-1-12 {
+    width: 8.3333%;
+}
+
+.col-1_5-12 {
+    width: 12.49995%;
+}
+
+.col-2-12 {
+    width: 16.6666%;
+}
+
+.col-3-12 {
+    width: 24.9999%;
+}
+.col-4-12 {
+    width: 33.3333%;
+}
+
+.col-5-12 {
+    width: 41.6666%;
+}
+
+.col-6-12 {
+    width: 49.9999%;
+}
+
+.col-7-12 {
+    width: 58.3333%;
+}
+
+.col-8-12 {
+    width: 66.6666%;
+}
+
+.col-9-12 {
+    width: 74.9999%;
+}
+
+.col-10-12 {
+    width: 83.3333%;
+}
+
+.col-11-12 {
+    width: 91.6666%;
+}
+
+.col-12-12 {
+    width: 100%;
+}
+
