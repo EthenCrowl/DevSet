@@ -1,0 +1,11 @@
+# File name: main.py
+
+<BoxLayout>:
+	Label:
+		x_hint: 0.5
+		y_hint: None
+		text: "Hello World!"
+	Label:
+		x_hint: 0.5
+		y_hint: None
+		text: "This is a test"
