@@ -8,10 +8,17 @@
         pos_hint: {"x": 0,"top": .9}
         text: "Hello World!"
 
-    CodeInput:
-        lexer: Python3Lexer()
+    Python3CodeInput:
         size_hint: .85,.9
         pos_hint: {"x": .15,"top": .9}
+        font_size: 20
+        background_color: .2,.2,.2,1
+        style: 'fruity'
+        cursor_color: .8,.8,.8,1
+        auto_indent: True
+        cursor_blink: False
+        
+        text: "from kivy.uix.Label import Label\n#comment\n'string'\n\ndef square(n):\n    return n ** 2\n\nprint('Hello World'\n\ntry True:\n    pass\nelse:\n    pass)"
 
     BoxLayout:
         orientation: "horizontal"
